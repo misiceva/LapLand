@@ -6,21 +6,27 @@ function required() {
     var tel = document.forms["form1"]["unosTelefon"].value;
     var brOsoba = document.forms["form1"]["unosOsoba"].value;
     var datum = document.forms["form1"]["unosDatum"].value;
+    var br=0;
 
     //provera da li su unete sve vrednosti
     if ((ime == "") || (email == "") || (tel == "") || (brOsoba == "") || (datum == "")) {
         alert('Niste popunili sva polja');
+        br++;
     } 
     //proverva da li je mejl ispravno unet
     if (!proveriMejl(email)) {
         alert('Neispravno ste uneli mejl')
+        br++;
     }
     //proverava da li je broj telefona ispravno unet
     if(!proveriBroj(tel)){
         alert('Neispravno ste uneli broj telefona');
-    } else {
+        br++;
+    }
+    if(br == 0){
         alert('Poslata je rezervacija');
     }
+ 
 }
 
  //ako email sadrži @ i .rs ili ako sadrži @ i .com vrati true - to znači da je email ispravan, u suprotnom vrati false - to znači da je email neispravan
