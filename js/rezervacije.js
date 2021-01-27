@@ -50,3 +50,4 @@ function proveriBroj(myString) {
   }
 
   $( "input" ).labels().addClass( "ui-state-highlight" )
+
