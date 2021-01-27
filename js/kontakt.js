@@ -9,6 +9,39 @@ if ((ime == "") || (email == "") || (komentar == "") ) {
 }
 
 }
+
 $(function(){
-    $("#draggable").draggable();
+    $(".draggable").draggable();
 });
+
+/*NE RADI*/
+$( function() {
+    $(".map-responsive").resizable();
+  } );
+
+$( function() {
+    $( "#selektuj" ).selectable();
+  } );
+  
+  $( function() {
+    $( "#resizable" ).resizable();
+  } );
+
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).click( function( event ) {
+      event.preventDefault();
+    } );
+  } );
+
+  $( function() {
+    $( "#novodugme" ).on( "click", function() {
+      $( "#effect" ).addClass( "newClass", 1000, callback );
+    });
+ 
+    function callback() {
+      setTimeout(function() {
+        $( "#effect" ).removeClass( "newClass" );
+      }, 1500 );
+    }
+  } );

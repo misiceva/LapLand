@@ -69,10 +69,15 @@
 
 }
  
- .divForme h4{
+ .divForme h4 {
     color: rgb(221 164 97);
     font-family: Lucida Handwriting, cursive;
     text-align: center;    
+ }
+ h2{
+    color: rgb(221 164 97);
+    font-family: Lucida Handwriting, cursive;
+    text-align: center; 
  }
  
  input[ type= "text" ] {
@@ -85,7 +90,7 @@
      margin-bottom: 10px;    
  }
 
- input[ type= "submit" ] {
+ input[ type= "submit" ]  {
      border-style: solid;
      border-width: 5px;
      border-radius: 10px;
@@ -229,3 +234,67 @@
     textarea {width:500px}
     
   }
+
+  /*PLUGIN*/
+  .map-responsive{
+   
+    padding: 0.5em; 
+    margin: 0;
+  }
+
+  
+  #selektuj .ui-selecting  {
+      background: rgb(173 11 0); 
+}
+ #selektuj { 
+     list-style-type: none;
+     }
+ 
+ .flex{
+    display: flex;
+    
+    }
+.divForme {
+        width: 200px;
+        
+      }
+
+.novideo {
+    margin-top: 10px;
+    margin-left: 280px;
+    width:100%; 
+      }
+
+#novodugme {
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+        border-color:rgb(221 164 97) ;
+        align-self: auto;
+        margin-top: 10px;
+        margin-bottom: 100px;  
+}
+.novideo { 
+    width: 500px; 
+    height: 200px;
+     position: relative; 
+    }
+  #novodugme { 
+      padding: 0,5em;
+       text-decoration: none;
+     }
+  #effect {
+      position: relative; 
+       width: 300px;  padding: 1em; 
+       letter-spacing: 0; 
+       
+      
+        border: 1px solid #000;
+         background:transparent; 
+        color:rgb(221 164 97) }
+  .newClass {
+       text-indent: 40px; 
+       letter-spacing: .4em;
+        width: 410px; height: 100px;
+         padding: 30px; margin: 10px;
+          font-size: 1.6em; }
