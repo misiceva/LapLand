@@ -45,3 +45,11 @@ $( function() {
       }, 1500 );
     }
   } );
+
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+
+
+
+  
