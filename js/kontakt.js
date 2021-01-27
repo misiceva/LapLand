@@ -46,10 +46,13 @@ $( function() {
     }
   } );
 
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+ 
 
+  $( "input" ).labels().addClass( "ui-state-highlight" )
 
-
-  
+  $( "#promeniBoju" ).click(function() {
+    $( ".divForme" ).animate({
+      color: "green",
+      backgroundColor: "rgb( 20, 20, 20 )"
+    });
+  });
