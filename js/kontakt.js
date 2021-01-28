@@ -50,7 +50,7 @@ $( function() {
 
   $( "input" ).labels().addClass( "ui-state-highlight" )
 
-
+/*ne radi*/
   $( function() {
     var state = true;
     $( "#animacija2" ).on( "click", function() {
@@ -69,4 +69,8 @@ $( function() {
       }
       state = !state;
     });
+  } );
+
+  $( function() {
+    $( document ).tooltip();
   } );

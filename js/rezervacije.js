@@ -51,3 +51,13 @@ function proveriBroj(myString) {
 
   $( "input" ).labels().addClass( "ui-state-highlight" )
 
+  $( function() {
+    $( document ).tooltip();
+  } );
+
+  $( function() {
+    $( "#brojOsoba" ).spinner();
+    min: 1;
+    max: 8;
+  
+  } );

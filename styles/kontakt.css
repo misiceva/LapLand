@@ -314,3 +314,8 @@
 #animacija2 { padding: .5em 1em; text-decoration: none; }
 #effect2 { width: 240px; height: 170px; padding: 0.4em; position: relative; background: transparent; }
 #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+label {
+    display: inline-block;
+    width: 10em;
+  }
