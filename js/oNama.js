@@ -31,3 +31,7 @@ var slideIndex = 1;
      //ova komanda znači: slika na kojoj se nalazimo neka se prikaže
       slides[slideIndex-1].style.display = "block";  
     }
+    
+    $( function() {
+      $( document ).tooltip();
+    } );

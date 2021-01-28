@@ -4,6 +4,9 @@
     $("#accordion").accordion();
 });
 
+$( function() {
+  $( document ).tooltip();
+} );
 
 
 var slideIndex = 1;
