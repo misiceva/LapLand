@@ -17,7 +17,8 @@
   <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
   <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
-  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet"> 
+  
+ 
 
 </head>
 
@@ -38,6 +39,7 @@
     <h1>REZERVACIJE</h1>
     <p>Popunite sva polja kako biste rezervisali mesto u našem restoranu. 
     
+      
     </p>
       <form name="form1" action="#" onsubmit="required()">
         <label for="imePrezime">Ime i prezime:</label>
@@ -55,11 +57,24 @@
         <input type="text" id="telefon" name='unosTelefon' title="Molimo Vas popunite ovo polje kako biste dobili potvrdu rezervacije.">
         <br>
         <br>
-        <label for="spinner">Broj osoba:</label>
+        <label for="brojOsoba">Broj osoba:</label>
         <br>
-        <input type="text" id="brojOsoba"  value="0" title="Molimo Vas da uneseta tačan broj osoba.">
+       <fieldset >
+        <select name="brojOsoba" id="brojOsoba">
+          <option>1</option>
+          <option selected="selected">2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>  
+        </select>
+      </fieldset>
+      
         <br>
-        <br>
+        
         <label for="datum">Datum</label>
         <br>
         <input type="date" id="datum" name="unosDatum" title="Molimo Vas da unesete tačan datum rezervacije.">

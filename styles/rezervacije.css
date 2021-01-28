@@ -74,4 +74,22 @@ input{
   .navigacija a{font-size:20px;}
 }
 
-#brojOsoba  {width: 100px}  
+fieldset{
+  border-color: transparent;
+}
+#brojOsoba{
+  color:rgb(221 164 97);;
+  background-color: transparent;
+  border-radius: 0px;
+    width: 180px;
+    height: 20px;
+    border-width: 2px;
+    border-bottom: solid white;
+    border-top:transparent;
+    border-left:transparent;
+    border-right:transparent;
+
+
+margin-bottom:0px;
+  
+}

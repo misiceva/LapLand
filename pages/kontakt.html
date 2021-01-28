@@ -19,7 +19,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     
-
+    
     
 </head>
 
@@ -121,7 +121,22 @@
         <textarea id="komentar" name="comments" rows="6"  wrap="virtual" title="Ova poruka će biti upotrebljena samo u svrhu unapređenja naših usluga." ></textarea>
         <br>
         <div class="widget">
-        <input type="submit" value="Posalji zahtev" id="dugme" title="Pošalji zahtev.">
+        <fieldset>
+          <legend>Ocenite restoran</legend>
+          <label for="checkbox-1">1</label>
+          <input type="checkbox" name="checkbox-1" id="checkbox-1">
+          <label for="checkbox-2">2</label>
+          <input type="checkbox" name="checkbox-2" id="checkbox-2">
+          <label for="checkbox-3">3</label>
+          <input type="checkbox" name="checkbox-3" id="checkbox-3">
+          <label for="checkbox-4">4</label>
+          <input type="checkbox" name="checkbox-4" id="checkbox-4">
+          <label for="checkbox-5">5</label>
+          <input type="checkbox" name="checkbox-5" id="checkbox-5">
+        </fieldset>
+
+        
+        <input  type="submit" value="Posalji zahtev" id="dugme" title="Pošalji zahtev.">
         
        </div>
    
@@ -130,25 +145,19 @@
    </div>
     <div class="novideo">
      
-      <div id="effect" class="ui-corner-all">
+     <div id="effect" class="ui-corner-all">
         
         Ukoliko želite da postavite pitanje za osoblje našeg restorana, ili da predložite izmene, popunite zahtev.
       </div>
    
-     
-    <button id="novodugme" class="ui-state-default ui-corner-all" title="Kliknite kako biste uvećali tekst.">Pokreni efekat.</button>
     
-  
-    <div class="novideo2">
-      <div id="effect2" class="ui-widget-content ui-corner-all">
-        <h3 class="ui-widget-header ui-corner-all">Pokreni animaciju</h3>
-        <p>
-          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
-        </p>
-      </div>
-    </div>
-     
-    <button id="animacija2" class="ui-state-default ui-corner-all">Pokreni animaciju</button>
+    <button id="novodugme" class="ui-state-default ui-corner-all" title="Kliknite kako biste uvećali tekst.">Pokreni efekat 1.</button>
+
+  <button id="novodugme1" class="ui-state-default ui-corner-all" title="Kliknite kako biste uvećali tekst.">Pokreni efekat 2.</button>
+  <button id="novodugme2" class="ui-state-default ui-corner-all" title="Kliknite kako biste uvećali tekst.">Pokreni efekat 3.</button>
+
+    
+    
 
 
   </div>

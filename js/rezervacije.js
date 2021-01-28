@@ -4,7 +4,7 @@ function required() {
     var ime = document.forms["form1"]["unosImePrezime"].value;
     var email = document.forms["form1"]["unosEmail"].value;
     var tel = document.forms["form1"]["unosTelefon"].value;
-    var brOsoba = document.forms["form1"]["unosOsoba"].value;
+    var brOsoba = document.forms["form1"]["brojOsoba"].value;
     var datum = document.forms["form1"]["unosDatum"].value;
     var br=0;
 
@@ -56,8 +56,11 @@ function proveriBroj(myString) {
   } );
 
   $( function() {
-    $( "#brojOsoba" ).spinner();
-    min: 1;
-    max: 8;
+    
+    $( "#brojOsoba" )
+      .selectmenu()
+      .selectmenu( "menuWidget" )
+        .addClass( "overflow" );
+ 
   
   } );

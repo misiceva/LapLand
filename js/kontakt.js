@@ -46,31 +46,38 @@ $( function() {
     }
   } );
 
+
+  $( function() {
+    function runEffect() {
+      
+      $( "#effect" ).toggle( "scale", { percent: 50 }, 500 );
+    };
+    $( "#novodugme1" ).on( "click", function() {
+      runEffect();
+    });
+  } );
+ 
+  $( function() {
+    function runEffect() {
+      
+      $( "#effect" ).toggle( "shake", { percent: 50 }, 500 );
+    };
+    $( "#novodugme2" ).on( "click", function() {
+      runEffect();
+    });
+  } );
  
 
   $( "input" ).labels().addClass( "ui-state-highlight" )
 
-/*ne radi*/
-  $( function() {
-    var state = true;
-    $( "#animacija2" ).on( "click", function() {
-      if ( state ) {
-        $( "#effect2" ).animate({
-          backgroundColor: "#aa0000",
-          color: "#fff",
-          width: 500
-        }, 1000 );
-      } else {
-        $( "#effect2" ).animate({
-          backgroundColor: "#fff",
-          color: "#000",
-          width: 240
-        }, 1000 );
-      }
-      state = !state;
-    });
-  } );
+
 
   $( function() {
     $( document ).tooltip();
   } );
+
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+
+ 
