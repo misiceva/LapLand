@@ -41,3 +41,6 @@ var slideIndex = 1;
         $( "#dialog" ).dialog();
       } );
       
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
