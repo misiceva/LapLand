@@ -59,7 +59,7 @@ body{
 #dialog{
   background-color: black;
   color: rgb(221 164 97);
-
+  border-radius: 100px;
 }
 
 
