@@ -61,8 +61,9 @@ body{
   color: rgb(221 164 97);
 
 }
-#dialog title{
+.dialog div{
   background-color: black;
   color: rgb(221 164 97);
 }
+
 
