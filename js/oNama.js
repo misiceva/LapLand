@@ -35,3 +35,7 @@ var slideIndex = 1;
     $( function() {
       $( document ).tooltip();
     } );
+
+    $( function() {
+      $( "#dialog" ).dialog();
+    } );
