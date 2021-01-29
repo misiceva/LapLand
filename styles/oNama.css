@@ -56,7 +56,12 @@ body{
   .prev, .next,.text {font-size: 11px}
 }
 
-#dialog{
+/*#dialog{
+  background-color: black;
+  color: rgb(221 164 97);
+}
+*/
+.ui-dialog, .ui-widget, .ui-widget-content, .ui-corner-all, .foo{
   background-color: black;
   color: rgb(221 164 97);
 }
