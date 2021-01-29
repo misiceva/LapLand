@@ -59,6 +59,10 @@ body{
 #dialog{
   background-color: black;
   color: rgb(221 164 97);
-  
+
+}
+#dialog title{
+  background-color: black;
+  color: rgb(221 164 97);
 }
 
