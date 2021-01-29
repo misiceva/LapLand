@@ -36,6 +36,4 @@ var slideIndex = 1;
       $( document ).tooltip();
     } );
 
-    $( function() {
-      $( "#dialog" ).dialog();
-    } );
+   
