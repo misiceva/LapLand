@@ -44,3 +44,9 @@ var slideIndex = 1;
       $( function() {
         $( "#tabs" ).tabs();
       } );
+
+      $( function() {
+        $( "#draggable" ).draggable();
+      } );
+      
+    
